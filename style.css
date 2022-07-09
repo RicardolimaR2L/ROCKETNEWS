@@ -1,0 +1,135 @@
+/* ==== GERAL ===================== */
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  font-style: normal;
+  font-size: 1.6rem; /* 16px */
+}
+
+/*main*/
+
+.main {
+  width: 50%;
+  height: 100vh;
+  background-color: var(--body-bg-color);
+}
+.main img {
+  position: absolute;
+  width: 38.9rem;
+  height: 9.4rem;
+  left: 3rem;
+  top: 5rem;
+  margin-bottom: 0.9rem;}
+
+  /*content*/
+
+
+.content {
+  position: absolute;
+  width: 64.7rem;
+  height: 10.2rem;
+  left: 3.6rem;
+  top: 23.6rem;
+  margin-bottom: 0.9rem;
+}
+.content h2 {
+  color: var(--title-color);
+  font-family: 'work sans';
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.81rem;
+  margin-bottom: 0.9rem;
+}
+.content h4 {
+  font-family: 'spartan';
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.56rem;
+  color: var(--text-color);
+  margin-bottom: 0.9rem;
+}
+
+.content p {
+  font-family: 'spartan';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.94rem;
+  color: var(--form-color);
+  margin-bottom: 0.9rem;
+}
+
+.content form label {
+  font-family: 'spartan';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.94rem;
+  color: var(--form-color);
+}
+  .content form input {
+    position:absolute;
+    width: 74.5rem;
+    height: 4.8rem;
+    color: #6A6A6A;
+    padding: 1rem;
+    border: none;
+}
+.content form button  { 
+  position:absolute;
+  left:75rem;
+  width: 4.8rem;
+  height: 4.8rem;
+  background: var(--bg-button-color);
+  border:none;
+  padding: 1rem;
+}
+
+.content form button svg {
+  width: 2.4rem;
+  height: 2.4rem;
+
+  stroke:white; 
+}
+.content a {
+  display: flex;
+  margin-top: rem;
+
+}
+
+.content a h3 {
+  position: relative;
+  width: 180px;
+  height: 2.4rem;
+  
+}
+
+/*aside*/
+.aside img {
+  position: absolute;
+  height: 100vh;
+  right: 0;
+  top: 0;
+z-index: -1;
+
+
+}
+
+
+
